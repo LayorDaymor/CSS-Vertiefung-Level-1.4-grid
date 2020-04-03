@@ -15,14 +15,8 @@ body,html{
 
 .box{
     border-style: outset ;
-    
-
-    
-    
 }
 section{
-    margin: 0;
-    padding: 0;
     position: absolute;
     left: 60%;
     top: 0;
@@ -35,10 +29,7 @@ section{
 
 }
 /* Blau */
-.box1, .box8, .box10, .box11, .box15,
- .box17, .box22,.box24, .box37, .box43, .box44, .box49
- , .box50, .box56, .box63, .box70, .box73, .box74
- , .box81, .box82{
+.blau {
     background-color: var(--blau);
     border-radius: 0px;
     background: linear-gradient(145deg, #0000e6, #0000ff);
@@ -49,8 +40,7 @@ section{
 }
 
 /* Sky-Blue */
-.box2, .box3, .box9, .box16, .box41, .box46, .box47, .box48
-, .box59, .box60, .box64, .box65, .box66{
+.sky{
     background-color: var(--sky-blue);
     border-radius: 0px;
 background: linear-gradient(145deg, #00e6e6, #00ffff);
@@ -59,9 +49,7 @@ box-shadow:  1px 1px 0px #00fcfc,
 }
 
 /* Yellow */
-.box4,.box5,.box6,.box7, .box25,
-.box26, .box32, .box33, .box45, .box51, .box52, .box53, .box67, .box68, .box69
-, .box75{
+.yellow{
     background-color: var(--yellow);
     border-radius: 0px;
 background: linear-gradient(145deg, #e6e600, #ffff00);
@@ -71,9 +59,7 @@ box-shadow:  1px 1px 0px #fcfc00,
 }
 
 /* Crimson */
-.box12, .box13, .box18, .box19, .box31,
-.box38, .box39, .box40, .box54, .box55
-, .box61, .box62{
+.crimson{
     background-color: var(--crimson);
     border-radius: 0px;
 background: linear-gradient(145deg, #c51236, #ea1540);
@@ -82,9 +68,7 @@ box-shadow:  1px 1px 0px #d9143b,
 }
 
 /* Green */
-.box14, .box20, .box21, .box23, .box28,
-.box29, .box30, .box36, .box57, .box58
-, .box64, .box71{
+.green{
     background-color: var(--green);
     border-radius: 0px;
 background: linear-gradient(145deg, #5dc45d, #6ee96e);
@@ -92,8 +76,7 @@ box-shadow:  1px 1px 0px #66d866,
              -1px -1px 0px #68dc68;
 }
 /* Orange */
-.box27, .box34, .box35, .box42, .box72
-, .box76, .box77, .box78, .box79, .box80, .box83, .box84{
+.orange{
     background-color: var(--orange);
     border-radius: 0px;
 background: linear-gradient(145deg, #e69500, #ffb100);
